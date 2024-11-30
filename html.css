@@ -1,0 +1,286 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2b2b52;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.sign-in {
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background-color: #434190;
+}
+
+/* Forum Section */
+.forum-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #2b2b52;
+  color: white;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 1100px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section: Forum Content */
+.forum-content {
+  width: 60%;
+}
+
+.forum-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.forum-content span {
+  color: #5a67d8;
+}
+
+.forum-content p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.search-bar {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 25px;
+  margin-left: 10px;
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #434190;
+}
+
+/* Right Section: Forum Stats */
+.forum-stats {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forum-stats ul {
+  list-style: none;
+}
+
+.forum-stats ul li {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.forum-stats ul li span {
+  font-size: 24px;
+  color: #5a67d8;
+}
+/* -------------------------------- */
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fp {
+  width: 50px;
+}
+.tor {
+  background-color: #a0aec0;
+  padding: 5px 10px;
+}
+
+.card {
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 550px;
+  border: 2px solid #e2e8f0;
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  background-color: #e2e8f0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile-pic::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.card-info {
+  margin-left: 15px;
+}
+
+.category {
+  display: block;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.author {
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2d3748;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #718096;
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats span {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+.stats img {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.share img {
+  width: 24px;
+  cursor: pointer;
+}
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Title Bar */
+
+.title {
+  font-size: 15px;
+
+  color: #1a202c; /* Dark text color */
+}
+
+.mark-read {
+  display: flex;
+  align-items: center;
+  color: #718096; /* Grey text color */
+  cursor: pointer;
+}
+
+.mark-read img {
+  width: 16px;
+  margin-right: 8px;
+}
+
+.mark-read span {
+  font-size: 14px;
+}
+
+.torahd {
+  display: flex;
+  gap: 50px;
+}
+.urd {
+  margin-left: 70px;
+  font-size: 15px;
+}
+.yer {
+  display: flex;
+  gap: 50px;
+}
+.cart-info {
+  display: flex;
+  gap: 29px;
+}
+.hart {
+  display: flex;
+  gap: 120px;
+  justify-content: space-between;
+  font-size: 25px;
+}
